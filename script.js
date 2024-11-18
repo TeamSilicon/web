@@ -1,4 +1,4 @@
-const texts = ["where teens anywhere in the world can get involved in STEM", "where teens can get technology and STEM supplies for free", "where teens can learn to build the world"];
+const texts = ["where teens anywhere in the world can get involved in computer science", "where teens can get technology and computer science supplies for free", "where teens can learn to build the world"];
 let count = 0;
 let index = 0;
 let currentText = '';
@@ -21,14 +21,12 @@ let isDeleting = false;
     document.getElementById('typewriter').textContent = letter;
 
     if (!isDeleting && letter.length === currentText.length) {
-        // Pause before starting to delete
         isDeleting = true;
-        setTimeout(type, 2000); // Pause before deleting
+        setTimeout(type, 2000); 
     } else if (isDeleting && letter.length === 0) {
-        // Move to the next text
         isDeleting = false;
         count++;
-        setTimeout(type, 500); // Pause before typing the next text
+        setTimeout(type, 500); 
     } else {
         setTimeout(type, isDeleting ? 50 : 100);
     }

@@ -1,2 +1,2 @@
 # web
-Website for NexusSTEM
+Website for Project Nexus
