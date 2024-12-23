@@ -1,5 +1,5 @@
 .hero {
-    height: 55vh; /* Full height of the viewport */
+    height: 55vh;
     background: url('imgs/Screenshot\ 2024-08-25\ at\ 9.26.41\ AM.png') no-repeat center center;
     background-size: cover;
     color: white;
@@ -12,17 +12,17 @@ body {
 }
 
 #typewriter {
-    font-size: clamp(1.2rem, 2.5vw, 2rem); /* Responsive font size */
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
     font-weight: bold;
-    white-space: normal; /* Allows text wrapping */
-    overflow-wrap: break-word; /* Ensures long words break onto the next line */
+    white-space: normal;
+    overflow-wrap: break-word; 
     display: inline-block;
     vertical-align: bottom;
     border-right: 0.15em solid rgb(255, 255, 255);
     animation: blink-caret 0.75s step-end infinite;
-    max-width: 100%; /* Ensure it doesn't overflow the container */
-    line-height: 1.4; /* Adjust line height for better readability */
-    text-align: left; /* Align text to the left */
+    max-width: 100%; 
+    line-height: 1.4; 
+    text-align: left; 
 }
 
 @keyframes blink-caret {
