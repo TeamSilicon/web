@@ -5,6 +5,7 @@ let currentText = '';
 let letter = '';
 let isDeleting = false;
 
+// typewriter function
 (function type() {
     if (count === texts.length) {
         count = 0;
