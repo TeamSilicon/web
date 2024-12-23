@@ -12,6 +12,7 @@ let isDeleting = false;
         count = 0;
     }
 
+    // count of letters in text
     currentText = texts[count];
 
     if (isDeleting) {
@@ -22,6 +23,7 @@ let isDeleting = false;
 
     document.getElementById('typewriter').textContent = letter;
 
+    // Logic behind typewriter effect
     if (!isDeleting && letter.length === currentText.length) {
         isDeleting = true;
         setTimeout(type, 2000); 
