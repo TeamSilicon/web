@@ -5,7 +5,7 @@ Boilerplate/New HTML File Code:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The place where teens can get involved in computer science anywhere - Project Nexus</title>
+    <title>The place where teens can get involved in computer science anywhere - Project Silicon</title>
     <link rel="icon" type="image/x-icon" href="imgs/39ed8781f54d4d398b9b246dfd1686ad-free.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -52,7 +52,7 @@ Boilerplate/New HTML File Code:
         </div>
     </nav>
         <footer class="container-fluid">
-      <p>Copyright (c) Project Nexus, All rights reserved. Project Nexus is a fiscally sponsored 501(c)(3) nonprofit organization.</p>
+      <p>Copyright (c) Project Silicon, All rights reserved. Project Silicon is a fiscally sponsored 501(c)(3) nonprofit organization.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="script.js"></script>

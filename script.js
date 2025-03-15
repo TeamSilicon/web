@@ -1,5 +1,5 @@
 // super important variables
-const texts = ["where teens anywhere in the world can get involved in computer science", "where teens can get technology and computer science supplies for free", "where teens can learn to build the world"];
+const texts = ["where teens anywhere in the world can get involved in computer science", "where teens can get technology and computer science supplies for free", "where teens can learn to build the world", "where VEX Robotics Resources are accessible"];
 let count = 0;
 let index = 0;
 let currentText = '';
