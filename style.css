@@ -71,3 +71,10 @@ footer {
     color: white;
     padding: 15px;
 }
+
+.title {
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 22px;
+    margin-right: 22px;
+}
